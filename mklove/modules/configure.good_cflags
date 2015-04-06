@@ -9,5 +9,5 @@
 
 function checks {
     mkl_mkvar_append CPPFLAGS CPPFLAGS \
-        "-Wall -Werror -Wfloat-equal -Wpointer-arith"
+        "-Wall -Wfloat-equal -Wpointer-arith"
 }
